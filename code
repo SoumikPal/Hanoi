@@ -1,4 +1,6 @@
 #include <stdio.h>
+//n is the number of discs
+// A is the source,B is the destination,C is the intermediate
 void main(){
      
      int n;
