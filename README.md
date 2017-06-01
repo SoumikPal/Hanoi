@@ -1,2 +1,2 @@
 # Hanoi
-describes the tower of hanoi problem
+Contains the C programme for the tower of Hanoi Problem
