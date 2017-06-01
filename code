@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main(){
+     
+     int n;
+     printf("****Tower of Hanoi*****");
+     printf("\n enter number of discs :");
+     scanf("%d",&n);
+     printf("\n");
+     tower(n,'A','B','C');
+     }
+void tower(int a,char from,char aux,char to){
+    if(a==1){
+       printf(" move the disc from %c to %c ",from,to);
+       printf("\n");
+       return;
+    }
+    else{
+       tower(a-1,from,to,aux);
+       printf("move the %d disc from %c to %c",a,from,to);
+       tower(a-1,aux,from,to);
+    }
+}     
